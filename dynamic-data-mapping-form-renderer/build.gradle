@@ -29,6 +29,12 @@ dependencies {
 	testCompile project(":apps:forms-and-workflow:dynamic-data-mapping:dynamic-data-mapping-service")
 }
 
+task testJS
+
+testJS {
+	dependsOn gulpTest
+}
+
 transpileJS {
 	soySrcIncludes = ""
 	srcIncludes = "**/*.es.js"
