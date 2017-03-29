@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Firefox 37.0.0 (Mac OS X 10.12.0)" package="" timestamp="2017-03-29T19:38:19" id="0" hostname="java.local" tests="2" errors="0" failures="0" time="0.012">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:37.0) Gecko/20100101 Firefox/37.0"/>
+    </properties>
+    <testcase name="should return the same value as seted" time="0.008" classname="Firefox 37.0.0 (Mac OS X 10.12.0).Liferay_DDM_Field_Radio _getValue()"/>
+    <testcase name="should return clicked item" time="0.004" classname="Firefox 37.0.0 (Mac OS X 10.12.0).Liferay_DDM_Field_Radio _getValue()"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
