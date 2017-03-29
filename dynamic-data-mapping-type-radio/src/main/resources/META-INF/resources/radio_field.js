@@ -61,7 +61,7 @@ AUI.add(
 							value = inputNode.val();
 						}
 
-						return value;
+						return [value];
 					},
 
 					setValue: function(value) {
@@ -75,7 +75,7 @@ AUI.add(
 
 						var radioToCheck = radiosNodeList.filter(
 							function(node) {
-								return node.val() === value;
+								return node.val() === value[0];
 							}
 						).item(0);
 
